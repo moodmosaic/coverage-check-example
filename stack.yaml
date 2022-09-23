@@ -1,0 +1,8 @@
+resolver: lts-18.28
+
+packages:
+- .
+
+extra-deps:
+- hedgehog-1.2@sha256:b7abfb2db7638c50eb8ee76186ee627ea7ab187220e4ea966b5738a1bde3b22a,4496
+- random-1.2.1.1@sha256:dea1f11e5569332dc6c8efaad1cb301016a5587b6754943a49f9de08ae0e56d9,6541
