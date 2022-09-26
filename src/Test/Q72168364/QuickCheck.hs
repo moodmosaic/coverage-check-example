@@ -66,7 +66,7 @@ runner =
             True -- Base property, but really, the distribution is the test
       ]
   in
-    (defaultMain tests >>= \_ -> return True) `catch` (\exitCode ->
+    (defaultMain tests >> return True) `catch` (\exitCode ->
       if exitCode == ExitSuccess then
         return True
       else

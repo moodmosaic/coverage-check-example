@@ -12,5 +12,5 @@ main = do
     , Test.Q72168364.QuickCheck.runner
     ]
 
-  Control.Monad.unless (and results) $
+  Control.Monad.unless (and results)
     System.Exit.exitFailure
